@@ -1,0 +1,361 @@
+
+/*FOOTER-STICKY*/
+
+
+
+  #callnowbutton {
+    display: block;
+    position: fixed;
+    text-decoration: none;
+    z-index: 9999;
+    left: 0;
+    bottom: 0;
+    height: 115px;
+    font-size: 32px;
+
+    background-color: #eeeeee;
+  }
+  body {
+    padding-bottom: 150px;
+  }
+
+
+
+/*//FOOTER-STICKY*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*GENERAL*/
+
+.container {
+  z-index: 0 !important;
+  width: 100% !important;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: regular;
+  src: url(../fonts/Comfortaa-Regular.ttf);
+}
+
+@font-face {
+  font-family: light;
+  src: url(../fonts/Comfortaa-Light.ttf);
+}
+
+@font-face {
+  font-family: bold;
+  src: url(../fonts/Comfortaa-Bold.ttf);
+}
+
+.separateur {
+  width: 100%;
+}
+
+/*//GENERAL*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*HEAD*/
+
+.head {
+  height: 100%;
+}
+
+.head-colonne {
+  height: 100%;
+}
+
+.head-colonne--logo {
+  padding-right: 0px !important;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.head-colonne--logo img {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.head-colonne--logo center {
+  height: 100%;
+  width: auto;
+}
+
+.head-colonne--text {
+  font-size: 17px;
+  color: #000;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  text-align: center;
+  font-family: regular;
+  margin-top: 10px;
+}
+
+/*//HEAD*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*SUBHEAD*/
+
+.subhead {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  overflow: hidden;
+  padding-top: 20px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e2e2e2+2,ffffff+100 */
+  background: #fff;
+  height:190px;
+  background-image: url('../img/LP.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.subhead-colonne--boutton {
+
+}
+
+.subhead-colonne--text {
+  font-size: 15px;
+  text-align: center;
+  color: black;
+  font-family: regular;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.subhead-colonne {
+  color: white;
+}
+
+
+/*BOUTTON-APPEL  HAUT*/
+
+.call-box {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+  background: #7d7e7d;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #7d7e7d 0%, #0e0e0e 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e', GradientType=0);
+  /* IE6-9 */
+  color: white;
+  font-size: 38px;
+  line-height: 1.3em;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1 !important;
+  height: 300px;
+}
+
+.mobilecall-text {
+  font-size: 20px;
+  line-height: 1.4em;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.mobilecall-button--middle {
+}
+
+.call-icon {
+  text-decoration: none;
+  width: 100%;
+  height: 65px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  background: white;
+  color: black;
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 25px;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+    border: 1px solid black;
+}
+
+.call-icon-text {
+  font-size: 16px;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+.fa-phone {
+  font-size: 50px;
+}
+
+/*//BOUTTON-APPEL  HAUT*/
+
+/*//SUBHEAD*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*SUBTEXT*/
+
+.subtext {
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #eeeeee;
+  text-align: center;
+  color: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 17px;
+  font-family: regular;
+}
+
+/*//SUBTEXT*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*TITRE*/
+
+.texte-titre {
+  text-align: center;
+  font-size: 13px;
+  font-family: bold;
+  margin-top: 10px;
+}
+
+/*//TITRE*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*WELCOME*/
+
+.welcome-section {}
+
+.welcome-section--baseline {
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.welcome-section--baseline---icon {}
+
+.welcome-section--baseline---icon----box-----fa {}
+
+.welcome-section--baseline---icon----box h4 {
+  font-size: 20px;
+  font-family: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.welcome-section--baseline---icon----box-----fa {
+  text-align: center;
+  width: 60%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.welcome-section--baseline---icon----box-----fa img {
+  width: 100%;
+}
+
+.welcome-section--baseline---icon----box {}
+
+/*//WELCOME*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*BOUTTON-APPEL  BAS*/
+
+.callfoot {
+  color: white;
+  font-size: 38px;
+  line-height: 1.3em;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1 !important;
+  height: 60px;
+}
+
+.callfoot-colonne--box {
+  font-size: 20px;
+  line-height: 1.4em;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.callfoot-colonne--box---boutton {
+  text-decoration: none;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  background: #00ce08;
+  color: white;
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 25px;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.callfoot-colonne--box---boutton----right {
+  font-size: 25px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.callfoot-colonne--box---boutton----left .fa-phone {
+  font-size: 40px;
+}
+
+/*//BOUTTON-APPEL  BAS*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*CONTENT*/
+
+.content {
+  font-family: regular;
+}
+
+.content-colonne {}
+
+.content-colonne--box {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 70px;
+}
+
+.content-colonne--box---titre {
+  color: #4c4c4c;
+  text-align: center;
+  font-size: 28px;
+}
+
+.content-colonne--box---texte {
+  text-align: center;
+  font-size: 18px;
+}
+
+.content-footer {
+  font-size: 14px;
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+
+/*//CONTENT*/
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
